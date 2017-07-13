@@ -1,0 +1,1279 @@
+body{
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    overflow-x: hidden;
+    margin: 0; 
+    border: 0;
+    padding: 0;
+}
+
+.main {
+    margin: auto;
+    clear: both;
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color:black;
+}
+
+.lnk{ 
+    background-color: #191919;
+    font-family: 'Gloria Hallelujah', cursive;
+    height: 50px;
+    
+    width: 100%;
+    margin: auto;
+}
+
+.myTopNav {
+    width: 62%;
+/*    width: 890px;*/
+    margin: auto !important;
+}
+
+.monkeyBackground{
+    width: 100%;
+    height: 716px;
+    top: 0;
+    left: 0;
+}
+
+.monkeyBackground2{
+    width: 100%;
+    height: 760px;
+    top: 0;
+    left: 0;
+}
+
+.monkeyBackground3{
+    width: 100%;
+    height: 380px;
+    top: 0;
+    left: 0;
+}
+
+.monkeyBackground4{
+    width: 100%;
+    height: 480px;
+    top: 0;
+    left: 0;
+}
+
+.bcgrd{
+    position: absolute;
+     z-index: -1000;
+    width: 100%;
+    background-image:url(gorilla-622056_1920.jpg);
+    height: 716px;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+
+}
+
+.webNme{
+    color: white;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.mnk{
+    margin-top: 0px;
+    height: 48px;
+}
+
+.lnk ul {
+    
+    padding-left: 0;
+    list-style-type: none;
+/*    margin:auto;*/
+    overflow: hidden;
+    font-size: 1.7em;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+li {
+    float: left;
+/*    width: 15%;*/
+    display: inline-block;
+    
+    text-align: center;
+   
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left:40px;
+    padding-right:40px;
+    text-decoration: none;
+
+}
+
+.center{
+    float: left;
+/*    position: absolute;*/
+    width: 100%;
+    height: 600px;
+    background-color: #333;
+    z-index: -1000;
+}
+
+.center2{
+    float: left;
+/*    position: absolute;*/
+    width: 100%;
+    height: 450px;
+    background-color: #333;
+    z-index: -1000;
+}
+
+.center3{
+    float: left;
+    /*position: absolute;*/
+    width: 100%;
+    height: 75%;
+    background-color: #333;
+    z-index: -1000;
+}
+
+li a:hover {
+    background-color: #111;
+    color: greenyellow;
+}
+
+.sub{
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:cursive;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.info1{
+    float: left;
+    width: 30%;
+    height: 80%;
+    margin: 40px 30px 30px 30px;
+    color: white;   
+}
+
+.dscImg{
+    margin: auto;
+    width: 55%;
+/*    height: 80%;*/
+    float: left;
+    margin-right: 2%;
+    
+}
+
+.dscImg2{
+     margin: auto;
+    width: 25%;
+/*    height: 80%;*/
+    float: left;
+    margin-right: 2%;
+}
+
+.dscImg3{
+    margin: auto;
+    width: 60%;
+/*    height: 80%;*/
+    float: left;
+    margin-right: 2%;
+}
+
+.dscImg4{
+   margin: auto;
+    width: 52%;
+/*    height: 80%;*/
+    float: left;
+    margin-right: 2%;;
+}
+
+.dscImg5{
+    float: left;
+    height: 100%;
+    width: 30%;
+    background-image:url(chimpanzee-1545010_1920.jpg);
+    background-size: 245px 357px;
+    background-repeat: no-repeat;
+}
+
+.dscImg6{
+    float: left;
+    height: 91%;
+    width: 30%;
+    background-image:url(animal-welfare-1119405_1920%20copy.jpg);
+    background-size: 245px 500px;
+    background-repeat: no-repeat;
+}
+
+.dsc{
+    float: left;
+    background-color: #333;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    width: 70%;
+    height: 100%;
+}
+
+.dsc2{
+    float: left;
+    background-color: #333;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 22px;
+    width: 70%;
+    height: 91%;
+}
+
+.dsc3{
+    float: left;
+    background-color: #333;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    width: 100%;
+    height: 87%;
+}
+
+.dsc3 p{
+    margin-top: 70px;
+}
+
+.dsc4{
+    
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+}
+
+.dsc p{
+    margin-top: 50px;
+}
+
+
+
+.img1 img {
+    background-color: red;
+    float: left;
+    width: 30%;
+    /*height: 80%;*/
+    height: 60vh;
+    margin-top: 40px;
+    background-image: url(animal-welfare-1119296_1920.jpg);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    top: 170vh;
+    z-index: -1000;
+
+}
+
+.footer5{
+    clear: both;
+    /*position: absolute;*/
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    /*top: 170vh;*/
+    z-index: -1000;
+}
+
+.contact{
+    /*border-collapse: collapse;*/
+	margin: auto;
+    width: 100%;
+    margin-top: 12px;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.brd {
+    display: inline-block;
+    width:32%;
+    /*float: left;*/
+    padding: 1px;
+    text-align: center;
+    /*border-left: 1px solid #ddd;*/
+    /*border-right: 1px solid #ddd;*/
+}
+
+.brd:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+/*.nbrd{
+    border: 0;
+    width: 500px
+}*/
+
+
+
+.desc2{
+    height: 63%;
+    width: 60%;
+    margin: auto;
+    margin-top: 245px;
+    color: white;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.desc{
+    height:43%;
+    width: 60%;
+    margin: auto;
+    margin-top: 288px;
+    color: white;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.tweet{
+    float: left;
+    width: 400px;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+.aboutUs2{
+    position: absolute;
+    z-index: -1000;
+    width: 100%;
+    background-color: #333; 
+    height: 770px;
+}
+
+.aboutUs3{
+    position: absolute;
+    z-index: -1000;
+    width: 100%;
+    background-color: #333; 
+    height: 380px;
+}
+
+.aboutUs4{
+    position: absolute;
+    z-index: -1000;
+    width: 100%;
+    background-color: #333; 
+    height: 480px;
+}
+
+.abtUs{
+    text-align: center;
+    height: 40px;
+    font-family:cursive;
+    font-size: 25px;
+}
+
+.vision{
+    margin-top: 100px !important; 
+    margin: auto;
+ height: 63%;
+    width: 60%;
+    color: white;
+    padding: 15px;
+     background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.footer2{
+     clear: both;
+    /*position: absolute;*/
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    z-index: -1000;
+
+}
+
+.footer3{
+
+    clear: both;
+    /*position: absolute;*/
+    float: left;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    /*top: 170vh;*/
+    z-index: -1000;
+}
+
+.info2{
+    margin:auto;
+    width: 50%;
+    height: 20%;
+    margin-top: 200px;
+    color: white; 
+    text-align: center;
+}
+
+.sub2{
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.mission2{
+
+    height: 80%;
+    width: 60%;
+    margin: auto !important;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+}
+
+.vision2{
+    height: 80%;
+    width: 60%;
+    margin: auto !important;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+}
+
+.mission3{
+    height: 80%;
+    width: 60%;
+    margin: auto !important;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+}
+
+.vision3{
+    height: 80%;
+    width: 60%;
+    margin: auto !important;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+}
+
+form{
+    max-width: 450px;
+    margin: 0 auto 50px;
+}
+
+input{
+    border: 3px solid $accent;
+    width: 100%;
+    height: 18px;
+}
+
+textarea{
+    border: 3px solid $accent;
+    width: 205%;
+    height: 200px;
+}
+
+.contact-info-group label{
+    width: 48%;
+    margin-right: 2%;
+    float:left;
+    color: white;
+}
+
+label{
+    display: block;
+}
+
+span{
+    display: block;
+}
+
+.lble{
+    margin: auto;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.pay{
+    width: 50%;
+    height: 50%;
+    border: none;
+    margin-left: 100px;
+}
+
+.toggle{
+    padding-left: 15px;
+    color: white;
+    background-color: #191919;
+    font-size: 26px;
+    display: none;
+    
+}
+
+#toggle{
+    display: none;
+}
+
+.mnk3{
+    margin: 5px;
+    padding: 0;
+}
+.mnk2{
+    
+    display: none;
+}
+
+.mnkTitle{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+@media only screen and (max-width: 1299px){
+    
+    .toggle{
+        display: none;
+    }
+    
+    .mnk{
+        display: block;
+    }
+    
+    .lnk{
+        width: 100%;
+        height:50px;
+        display: block;
+    }
+    
+    .myTopNav {
+        width: 100%;
+    /*    width: 890px;*/
+        margin: auto !important;
+    }
+
+    .lnk ul{
+        margin: auto;
+    }
+    
+    .lnk li{
+        text-align: center;
+        width:20%;
+        margin: auto !important;
+        display: block;
+        border-bottom: none;
+    }
+    
+    .lnk li a {
+        font-size: 1em;
+        padding: 0;
+    }
+    
+    #toggle:checked + .lnk{
+        display: block;
+    }
+    
+    .mnkTitle{
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 31px;
+    }
+    .mnk2{
+        display: none;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .header{
+        height: 120px;
+    }
+    
+/*    home*/
+    
+    .dsc p{
+        margin-top: 16px;
+        font-size: 18px
+        
+    }
+    
+    .twitter-timeline
+    {
+        width:250px !important;
+    }
+    
+    .sub{
+        width: 95%;
+    }
+    
+    .img1{
+    float:left; 
+    width: 40%;
+    }
+    .img1 img{
+        width: 400px;
+    }
+    
+    
+    .tweet{
+        width: 20%;
+    }
+    
+    .center3{
+        height: 600px;
+    }
+    
+/*    about us*/
+
+    .dsc2{
+        font-size: 20px;
+    }
+    
+    .dsc3 p{
+        margin-top: 10px;
+    }
+    
+    .vision{
+        width: 80%;
+    }
+    .desc2{
+        width: 80%;   
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    
+    .toggle{
+        display: none;
+    }
+    
+    .mnk{
+        display: block;
+    }
+    
+    .lnk{
+        margin-right: 0;
+        width: 100%;
+        height:50px;
+        display: block;
+    }
+    
+    .myTopNav {
+        width: 100%;
+    /*    width: 890px;*/
+        height: 100%;
+        margin: auto !important;
+    }
+    
+    .lnk ul{
+        margin: 0;
+        
+    }
+    
+    .lnk li{
+        text-align: center;
+        margin: auto;
+        display: block;
+        border-bottom: none;
+    }
+    
+    .lnk li a {
+        font-size: 1em;
+        padding: 0;
+    }
+    
+    #toggle:checked + .lnk{
+        display: block;
+    }
+    
+    .mnkTitle{
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 31px;
+    }
+    .mnk2{
+        display: none;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .header{
+        height: 120px;
+    }
+    
+/*    home*/
+    
+    .center3{
+        height: 1500px;
+    }
+    
+    .info1{
+    width: 85%;
+    height: 20%;   
+    }
+    
+    .img1{
+    float: none; 
+    margin: auto;
+    margin-top:440px;
+    width: 42%;
+    height: 32%;
+    }
+    
+    .img1 img{
+        height: 450px;
+        width: 400px;
+        margin:auto;
+    }
+    .dsc p{
+        margin-top: 12px;
+        font-size: 17px
+        
+    }
+    
+    .twitter-timeline
+    {
+        width:450px !important;
+        
+        margin:0px;
+    }
+    
+    .sub{
+        width: 100%;
+      
+        margin-right: 45px;
+    }
+    
+    .tweet{
+        float: none;
+        margin: auto;
+      
+        width: 42%;
+    }
+    
+/*    about*/
+    
+/*    project*/
+    
+    .dsc4{
+        font-size: 22px;
+    }
+    
+    /*    donate*/
+    .monkeyBackground4{
+        height: 550px;
+    }
+
+    .aboutUs4{
+        height: 550px;
+    }
+    
+    .sub2{
+        font-size: 25px;
+        width: 100%
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    
+    .toggle{
+        display: block;
+        width:40
+    }
+    
+    .mnk{
+        display: none;
+    }
+    
+    .lnk{
+        float: left;
+        width: 50%;
+        height:205px;
+        display: none;
+    }
+    
+    .lnk ul{
+        margin-top: 0px;
+    }
+    
+    .lnk li{
+        float: none;
+        margin:auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        width:50%;
+        display: block;
+        border-bottom: 1px solid white;
+    }
+    
+    #toggle:checked + .lnk{
+        display: block;
+    }
+    
+    .mnkTitle{
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 31px;
+    }
+    .mnk2{
+        display: block;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .header{
+
+        height: 120px;
+
+    }
+    
+/*    home*/
+    
+    .img1{
+        margin-top: 510px;
+        width: 400px;
+    }
+    
+    .tweet{
+        width: 400px;
+    }
+    
+    .dsc p{
+        margin-top: 0;
+        font-size: 16px
+        
+    }
+    
+    
+    /*    about us*/
+    .dscImg6{
+        display: none;
+    }
+    .dsc2{
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .dsc3 p{
+        margin-top: 0px;
+        font-size: 22px
+    }
+    
+    .vision{
+        width: 90%;
+    }
+    .desc2{
+        width: 90%;   
+    }
+    
+    .footer5{
+        font-size: 10px;
+    }
+    
+    /*    project*/
+    
+    .mission2{
+        width: 80%;
+    }
+    
+    .vision2{
+        width: 80%;
+    }
+    
+    .mission3{
+        width: 80%;
+    }
+    
+    .vision3{
+        width: 80%;
+    }
+    
+/*    donate*/
+    /*    donate*/
+    .monkeyBackground4{
+        height: 580px;
+    }
+
+    .aboutUs4{
+        height: 580px;
+    }
+    
+    .sub2{
+        font-size: 25px;
+        width: 100%
+    }
+    
+    .info2{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    
+    .toggle{
+        display: block;
+    }
+    
+    .mnk{
+        display: none;
+    }
+    
+    .lnk{
+        width: 300px;
+        height:205px;
+        display: none;
+    }
+    
+    .lnk ul{
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    
+    .lnk li{
+        display: block;
+        border-bottom: 1px solid white;
+    }
+    
+    #toggle:checked + .lnk{
+        display: block;
+    }
+    
+    .mnkTitle{
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 31px;
+    }
+    .mnk2{
+        display: block;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .header{
+
+        height: 120px;
+
+    }
+    
+/*    home*/
+ 
+    .info1{
+    width: 85%;
+    height: 33%;   
+    }
+    
+    .tweet{
+        margin-top: 50px;
+    }
+    
+    .dsc p{
+    margin-top: 16px;
+    font-size: 14px;
+        
+    }
+    
+    .brd {
+        font-size: 10px; 
+    /*border-left: 1px solid #ddd;*/
+    /*border-right: 1px solid #ddd;*/
+    }
+    
+    /*    about us*/
+    .dscImg6{
+        display: none;
+    }
+    .dsc2{
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    .dsc2 p{
+        margin-top: 55px
+    }
+    
+    .dsc3 p{
+        margin-top: 0px;
+        font-size: 22px
+    }
+    
+    .vision{
+        width: 90%;
+    }
+    .desc2{
+        width: 90%;   
+    }
+    
+/*    donate*/
+    
+    .info2{
+        margin-top: 40%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 464px){
+    
+    .toggle{
+        display: block;
+    }
+    
+    .mnk{
+        display: none;
+    }
+    
+    .lnk{
+        width: 300px;
+        height:205px;
+        display: none;
+    }
+    
+    .lnk ul{
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    
+    .lnk li{
+        display: block;
+        border-bottom: 1px solid white;
+    }
+    
+    #toggle:checked + .lnk{
+        display: block;
+    }
+    
+    .mnkTitle{
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 31px;
+    }
+    .mnk2{
+        display: block;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .header{
+        height: 120px;
+
+    }
+    
+/*    home*/
+    
+    .info1{
+    width: 85%;
+    height: 34%;   
+    }
+
+ 
+    form{
+        width:400px;
+    }
+    
+    .desc{
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    margin-top: 250px;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+    }
+    
+    .brd{
+        font-size: 11px;
+        width: 133px
+    }
+    
+    .vision{
+    margin: auto;
+    height: 50%;
+    width: 90%;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+    }
+    
+     /*    about us*/
+    .dscImg6{
+        display: none;
+    }
+    
+    .dsc2{
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    .dsc2 p{
+        margin-top: 55px
+    }
+    
+    .dsc3 p{
+        margin-top: 0px;
+        font-size: 19px
+    }
+    
+    .vision{
+        width: 90%;
+    }
+    .desc2{
+        width: 90%;   
+    }
+    
+/*    project*/
+    
+    .dsc4{
+        font-size: 20px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 414px){
+    
+    .toggle{
+        display: block;
+    }
+    
+    .mnk{
+        display: none;
+    }
+    
+    .lnk{
+        width: 300px;
+        height:205px;
+        display: none;
+    }
+    
+    .lnk ul{
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    
+    .lnk li{
+        display: block;
+        border-bottom: 1px solid white;
+    }
+    
+    #toggle:checked + .lnk{
+        display: block;
+    }
+    
+    .mnkTitle{
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 31px;
+    }
+    .mnk2{
+        display: block;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .header{
+        height: 120px;
+
+    }
+    
+/*    home*/
+    
+    .center3{
+        height: 1600px;
+    }
+    
+    .info1{
+    width: 85%;
+    height: 35%;   
+    }
+    
+    .img1{
+    margin-top: 600px;
+    width: 80%;
+    height: 30%;
+    }
+    
+     .img1 img{
+  
+    width: 100%;
+    height: 100%;
+    }
+    
+    .tweet{
+        margin-top: 35px;
+        width: 85%;
+        height: 28%;  
+    }
+    
+    .desc{
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    margin-top: 250px;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+    }
+    
+    form{
+        width:390px;
+    }
+    
+    .brd{
+        font-size: 10px;
+        width: 128px;
+    }
+    
+    .vision{
+    margin: auto;
+    height: 50%;
+    width: 90%;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border: none;
+    }
+    
+/*    about us*/
+    
+    .dscImg6{
+        display: none;
+    }
+    .dsc2{
+        width: 100%;
+    }
+
+}
